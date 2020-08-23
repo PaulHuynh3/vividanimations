@@ -50,8 +50,17 @@ class FeedbackViewController: UIViewController {
                 self.descriptionLabel.alpha = 0
                 self.descriptionLabel.transform = self.titleLabel.transform.translatedBy(x: 0, y: -200)
 
-            })
+            }) { (_) in
+                self.reset()
+            }
         }
 
+    }
+
+    func reset() {
+        self.titleLabel.transform = CGAffineTransform.identity
+        self.descriptionLabel.transform = CGAffineTransform.identity
+        self.titleLabel.alpha = 1
+        self.descriptionLabel.alpha = 1
     }
 }
