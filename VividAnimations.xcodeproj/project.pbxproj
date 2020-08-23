@@ -13,6 +13,7 @@
 		EB6B957224F208D500699663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6B957024F208D500699663 /* Main.storyboard */; };
 		EB6B957424F208D700699663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6B957324F208D700699663 /* Assets.xcassets */; };
 		EB6B957724F208D700699663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6B957524F208D700699663 /* LaunchScreen.storyboard */; };
+		EB8D5CC024F30E4000537672 /* FeedBackViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8D5CBF24F30E4000537672 /* FeedBackViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB6B957324F208D700699663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB6B957624F208D700699663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB6B957824F208D700699663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8D5CBF24F30E4000537672 /* FeedBackViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedBackViewController2.swift; path = vividanimations/FeedBackViewController2.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EB6B956A24F208D500699663 /* AppDelegate.swift */,
 				EB6B956C24F208D500699663 /* SceneDelegate.swift */,
 				EB4CE06E24F22CF400F1154B /* FeedbackViewController.swift */,
+				EB8D5CBF24F30E4000537672 /* FeedBackViewController2.swift */,
 				EB6B957024F208D500699663 /* Main.storyboard */,
 				EB6B957324F208D700699663 /* Assets.xcassets */,
 				EB6B957524F208D700699663 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				EB6B956B24F208D500699663 /* AppDelegate.swift in Sources */,
 				EB6B956D24F208D500699663 /* SceneDelegate.swift in Sources */,
+				EB8D5CC024F30E4000537672 /* FeedBackViewController2.swift in Sources */,
 				EB4CE06F24F22CF400F1154B /* FeedbackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
